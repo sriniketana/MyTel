@@ -1,0 +1,216 @@
+#page-MyPlan .scroll-content {
+  margin-top: 0px;
+  overflow: hidden;
+  padding: 0 !important;
+}
+
+#page-MyPlan  {
+    padding: !important;
+}
+/* shapes styles */
+
+#page-MyPlan .shape-one {
+  width: 69vw;
+  height: 40vh;
+  opacity: 0.2;
+  background-image: linear-gradient(#F6DC79, #FF9E7B);
+  border-radius: 50%;
+  position: absolute;
+  top: -25%;
+  left: -11%;
+  z-index: 1;
+}
+
+#page-MyPlan .shape-two {
+  opacity: 0.2;
+  width: 100vw;
+  height: 100vw;
+  background-image: linear-gradient(#F679A3, #E9446A);
+  border-radius: 50%;
+  position: absolute;
+  top: -28%;
+  left: 37%;
+}
+
+page-MyPlan .toolbar-background {
+  background: transparent;
+    border: none !important;
+}
+
+page-MyPlan .toolbar-content {
+    display: none;
+}
+
+page-MyPlan .header-md::after{
+    content: none;
+}
+page-MyPlan .scroll-content {
+  margin-top: 0 !important;
+}
+
+page-MyPlan ion-title {
+  text-align: center;
+}
+
+page-MyPlan .toolbar-title {
+  color: #ffffff;
+}
+
+page-MyPlan .button-inner {
+    color: #ececec !important;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+page-MyPlan .button-inner ion-icon{
+    color: #ececec !important;
+    font-size: 2.5rem;
+}
+
+#page-MyPlan .content-container-vivid-light {
+    padding: 0 !important;
+}
+#page-MyPlan .content-container-vivid-light .profile-intro {
+    background-image: linear-gradient(220deg,#FF9E7B,#E9446A);
+    height: 45vh;
+    padding-top: 8vh;
+}
+#page-MyPlan .content-container-vivid-light .profile-intro .user-basic-info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Lato;
+    color: #ececec;
+    width: 100%;
+}
+#page-MyPlan .content-container-vivid-light .profile-intro .user-basic-info ion-icon{
+    margin-right: 1rem;
+}
+#page-MyPlan .content-container-vivid-light .profile-intro .profile-img{
+    width: 106px;
+    height: 106px;
+    border-radius: 53px;
+    border: 3px solid #fff;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+#page-MyPlan .content-container-vivid-light .profile-intro .profile-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+#page-MyPlan .content-container-vivid-light .profile-intro h4 {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+#page-MyPlan .content-container-vivid-light .profile-intro p {
+    margin: 0;
+    font-weight: 700;
+}
+
+/* scoial info styles */
+#page-MyPlan .content-container-vivid-light .profile-intro .user-social-info{
+    justify-content: space-around;
+    width: 100%;
+    color: #ececec;
+}
+#page-MyPlan .content-container-vivid-light .profile-intro .user-social-info ion-col h4{
+    margin-bottom: 0;
+}
+#page-MyPlan .content-container-vivid-light .profile-intro .user-social-info ion-col p{
+    font-weight: 400;
+}
+#page-MyPlan .content-container-vivid-light .profile-intro .user-social-info ion-col button{
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    color: #E9446A;
+    font-weight: 800;
+    box-shadow: 1px 2px 4px 1px #E9446a;
+    background: #ececec;
+}
+#page-MyPlan .content-container-vivid-light .user-activities{
+    /* flex-direction: column; */
+    margin: 0;
+    text-align: left;
+}
+#page-MyPlan .content-container-vivid-light .user-activities .user-activities-list{
+    overflow: scroll;
+    padding-bottom: 1rem;
+    height: 48vh;
+    padding-top: 1rem;
+}
+#page-MyPlan .content-container-vivid-light .user-activities .user-activity-item {
+    font-family: Lato;
+    padding-left: 1.5rem;
+    border-top: none !important;
+}
+#page-MyPlan .content-container-vivid-light .user-activities .user-activity-item:not(:last-child) {
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 1rem;
+}
+#page-MyPlan .content-container-vivid-light .user-activities .user-activity-item:last-child {
+    border-bottom: none !important;
+}
+#page-MyPlan .content-container-vivid-light .user-activities .user-activity-item img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+#page-MyPlan .content-container-vivid-light .user-activities .user-activity-item p{
+    max-width: 75%;
+}
+#page-MyPlan .content-container-vivid-light .user-activities .activities-heading{
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    font-family: Lato;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #353535;
+}
+/* web ui */
+
+.platform-core #page-MyPlan .scroll-content {
+  padding: 0;
+}
+
+.platform-core #page-MyPlan .shapes-container-vivid {
+  width: 50%;
+}
+
+.platform-core #page-MyPlan .shapes-container-vivid .shape-one {
+  width: 30vw;
+  height: 50vh;
+  top: -25%;
+  left: -10%;
+  transform: rotate(45deg);
+  background-image: linear-gradient(#F6DC79, #FF9E7B);
+  border-radius: 0;
+  position: absolute;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  z-index: 2;
+  opacity: 1;
+}
+
+.platform-core #page-MyPlan .shapes-container-vivid .shape-two {
+  width: 60vw;
+  height: 80vh;
+  top: -50%;
+  left: -36%;
+  transform: rotate(35deg);
+  background-image: linear-gradient(#F679A3, #E9446A);
+  border-radius: 0;
+  position: absolute;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.platform-core page-MyPlan .toolbar-title {
+  color: #424242;
+}
+.platform-core #page-MyPlan .content-container-vivid-light .user-activities {
+    flex-direction:column;
+}

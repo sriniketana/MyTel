@@ -1,0 +1,70 @@
+{
+  "platforms": [],
+  "services": [
+    {
+      "customCharts": [
+        {
+          "tableColumns": [],
+          "creatorUserID": "admin",
+          "chartProperties": {
+            "size": 10,
+            "offset": 0,
+            "sortOrder": null,
+            "sortBy": null
+          },
+          "customYAxis": null,
+          "source": "fromPage",
+          "filters": [],
+          "title": "Page flow Analysis",
+          "dest": "toPage",
+          "customEventType": "CustomData",
+          "customChartType": "FLOWCHART",
+          "term": "Home",
+          "customXAxis": null,
+          "metrics": [],
+          "id": "ccdddb37c7-8142-4846-9f09-a80b2ecb8c10",
+          "timestamp": 1592997307214
+        }
+      ],
+      "name": "analytics"
+    }
+  ],
+  "confidentialClients": [
+    {
+      "id": "test",
+      "displayName": "Test Client",
+      "secret": "test",
+      "allowedScope": "*"
+    },
+    {
+      "id": "admin",
+      "displayName": "admin",
+      "secret": "nimda",
+      "allowedScope": "push.* mfp.admin.plugins settings.read settings.write chromeWebConf.read chromeWebConf.write firefoxWebConf.read firefoxWebConf.write safariWebConf.write safariWebConf.read liveupdate.*"
+    },
+    {
+      "id": "push",
+      "displayName": "push",
+      "secret": "hsup",
+      "allowedScope": "authorization.introspect"
+    },
+    {
+      "id": "liveupdate",
+      "displayName": "liveupdate",
+      "secret": "etadpuevil",
+      "allowedScope": "authorization.introspect"
+    },
+    {
+      "id": "storefront",
+      "secret": "storefront",
+      "allowedScope": "messages.write push.application.*",
+      "displayName": "StoreFront Microservices"
+    },
+    {
+      "id": "openedx",
+      "displayName": "OpenEdx",
+      "secret": "xdenepo",
+      "allowedScope": "authorization.introspect"
+    }
+  ]
+}
